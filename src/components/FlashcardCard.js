@@ -4,7 +4,7 @@ export default function FlashcardCard({ flashcardCard }) {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <div onClick={() => setFlipped(!flipped)}>
+    <div className='card' onClick={() => setFlipped(!flipped)}>
       {flipped ? flashcardCard.back : flashcardCard.front}
     </div>
   );
