@@ -15,13 +15,13 @@ const flashcardArray = [
   },
   {
     id: 3,
-    front: "What is the event loop?",
-    back: "responsible for executing the code, collecting and processing events, and executing queued sub-tasks",
+    front: "What is the event loop responsible for?",
+    back: "executing code, collecting and processing events, and executing queued sub-tasks",
   },
   {
     id: 4,
-    front: "What are some defining characteristics of arrow functions?",
-    back: "Arrow functions do not have their own this. They are not well suited for defining object methods.",
+    front: "Elaborate on 'this' in regards to arrow functions",
+    back: "Arrow functions do not have their own this.",
   },
   {
     id: 5,
@@ -33,7 +33,7 @@ const flashcardArray = [
     front: "Function Rest Parameter",
     back: "The rest parameter (...) allows a function to treat an indefinite number of arguments as an array. function sum(...args){}",
   },
-  { id: 7, front: "Array.from()", back: "// Returns [A,B,C,D,E,F,G]" },
+  { id: 7, front: "console.log(Array.from('foo'))", back: "[\"f\", \"o\", \"o\"]" },
   {
     id: 8,
     front: "New ES6 Math Methods",
