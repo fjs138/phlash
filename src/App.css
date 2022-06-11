@@ -3,6 +3,14 @@
   background-color: #CD5334;
 }
 
+/* Disable text selection  */
+.disabledSelect {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .flashcardTable {
   background-color: #17BEBB;
   grid-gap: 1rem;
