@@ -52,11 +52,11 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>PHLash</p>
+        <h1>PHLash</h1>
         <p>Flashcards for all...</p>
       </header>
 
-      <p>Go Birds, Sixers, Phils</p>
+      <p>Go Birds | Sixers | Phils | Flyers</p>
 
       <FlashcardTable flashcardsArray={flashcardsArray} />
     </div>
