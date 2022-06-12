@@ -33,7 +33,7 @@ const flashcardArray = [
     front: "Function Rest Parameter",
     back: "The rest parameter (...) allows a function to treat an indefinite number of arguments as an array. function sum(...args){}",
   },
-  { id: 7, front: "console.log(Array.from('foo'))", back: "[\"f\", \"o\", \"o\"]" },
+  { id: 7, front: "console.log(Array.from('foo'))", back: '["f", "o", "o"]' },
   {
     id: 8,
     front: "New ES6 Math Methods",
